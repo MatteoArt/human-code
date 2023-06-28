@@ -1,0 +1,23 @@
+Esercizio: Aprire un pacchetto di figurine
+
+Definire gli oggetti
+1. definire il pacchetto di figurine -> (contenitore di plastica, quadrato, colorato, con
+disegno sopra, di dimensioni ridotte)
+2. contenitore di figurine -> (foglietti di carta con figura sopra)
+4. album -> collezione di carte possedute
+5. mazzo doppioni -> carte già contenute nell'album
+
+Procedimento per aprire il pacchetto
+1. Apro il pacchetto tirando il lembo in alto verso destra
+2. Sfila le carte dal pacchetto e le scorro tutte guardandole
+3. Conto il numero delle carte 
+4. FINCHE' ci sta almeno una carta da esaminare di quelle che erano nel pacchetto:
+      SE la carta è nuova ovvero non ce l'ho già
+         metto la carta nell'album
+      ALTRIMENTI se la carta è un doppione
+         metto la carta nel mazzo doppioni
+5. Quando ho disposto tutte le carte (uscito dal ramo FINCHE')
+       SE doppioni nuovi > 0
+          potrò effettuare più scambi con gli amici
+       SE doppioni nuovi = 0 
+          scambio solo doppioni che avevo già nel mazzo doppioni
